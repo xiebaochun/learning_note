@@ -1,0 +1,9 @@
+<image src="http://upload-images.jianshu.io/upload_images/1829796-fefe525bde028e51.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+
+
+1.是否开辟新的内存
+2.是否对地址C有引用计数增加
+
+
+reference
+	http://www.jianshu.com/p/a29a0bdd5da8

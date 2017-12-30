@@ -1,0 +1,87 @@
+一、基本概念
+	1，OC中没有命名空间的机制，也没有包的概念，为了区分不同的类，在类名前加前缀。
+	2. OC中的关键字都以@开头，用于区分C和C++的关键字，字符串也以@开头，比如：
+	
+	@interface Student : NSObject
+	NSLog(@"Hello World！");
+
+
+二.  面向对象
+
+	1. @interface --------> 等于java中的class
+    2. 类名后的冒号：---------> 等于java中的extends
+    3. 函数前面的减号-  ---------> 表示对象方法
+    	函数前面的加号+  ---------> 表示类方法，等于java的static方法
+    4. 函数的返回类型和参数的类型必须用括号，形参用冒号：表示
+    以bean类的头文件示例：
+
+    
+  	以bean类的头文件示例：
+  	@interface Student : NSObject{
+	    int age;
+	    int height;
+		}//成员变量的声明区间，成员变量必须在此声明
+		- (int)age;//本来是getAge，但是OC的习惯是用变量来命名get方法
+		- (void)setAge:(int)newAge;
+		//多形参的函数写法比较特别
+		- (void)setAge:(int)newAge andHeight:(int)newHeight;
+	@end//类的结束标记，必须写
+
+
+	对应的m文件为：
+	
+	#import "Student.h"
+	@implementation Student
+		- (int)age{
+		    return age;
+		}
+		- (void)setAge:(int)newAge{
+		    age = newAge;
+		}
+		- (void)setAge:(int)newAge andHeight:(int)newHeight{
+		    age = newAge;
+		    height = newHeight;
+		}
+	@end
+
+	5. 对象的创建和方法调用：
+	//OC创建对象分2步，先调用静态无参函数alloc申请内存，在调用静态无参函数init初始化  
+	//1. Student *stu = [Student alloc];//仅仅为对象分陪内存空间  
+	//2. stu = [stu init];//真正创建对象  
+	//以上2步一般简写为:  
+	Student *stu = [[Student alloc] init];   
+	//设置  
+	[stu setAge:100];  
+	[stu setAge:100 andHeight:50];  
+	//获取  
+	NSLog(@"age is %i",[stu age]);  
+	[stu release];//对象使用完毕要释放内存  
+
+	6. 对象的构造方法
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

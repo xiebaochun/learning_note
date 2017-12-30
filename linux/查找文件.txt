@@ -1,0 +1,18 @@
+# find -iname "filename"
+
+note: Using -iname instead of -name ignores the case of your query. The -name command is case-sensitive.
+
+# find / -iname "filename"
+
+note: Set the search to start in the root directory
+
+# find /home/pat -iname "*.conf"
+
+# find /home/pat -iname "*.conf" | less 
+
+# find / -type f -iname "filename"
+
+# find / -size +50M -iname "filename"
+
+reference:
+https://www.wikihow.com/Find-a-File-in-Linux

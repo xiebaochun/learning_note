@@ -1,0 +1,31 @@
+# 编辑定时任务
+	$ crontab -e
+
+	In the opened editor, delete line of the task you want to stop or insert a # sign, save and exit
+
+	e.g.
+
+	before
+
+	* * * * * some_script1
+	* * * * * some_script2
+	after
+
+	* * * * * some_script1
+	#* * * * * some_script2
+	or
+
+	* * * * * some_script1
+
+# 停止定时任务
+
+	If you are using Redhat (RHEL)/Fedora Core/Cent OS Linux use the following command :
+
+	/etc/init.d/crond stop
+	If you are using Debian or Ubuntu Linux the following command :
+
+	/etc/init.d/cron stop
+	P.S : You should be root to do these things
+
+
+

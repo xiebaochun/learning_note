@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<script type="text/javascript">
+	+function(){
+		var zhangsan = {
+			name: 'nicholas',
+			age: 50,
+			job: 'doctor',
+			childs: ['erfer', 'xiaohong']
+		}
+		var xiaoming = {
+			name: 'nicholas',
+			parent: zhangsan,
+			age: 23,
+			job: 'student',
+			gg: null
+		}
+
+		function clone(obj){
+			var Class = checkClass(obj), result;
+			if(Class == 'Undefined' || Class == 'Null'){
+				return obj;
+			}
+			if(Class == 'Object') {
+				result = {};
+			}else if(Class == 'Array'){
+				result = [];
+			}
+
+			for(var index in obj){
+				var item = obj[index];
+				var _class = checkClass(item);
+				if(_class == 'Object' || _class == 'Array') {
+					result[index] = arguments.callee(item);
+				}else{
+					result[index] = item;
+				}
+			}
+			return result;
+		}
+
+		function checkClass(object){
+			// if(object === undefined) return 'Undefined';
+			// if(object === null) return 'Null';
+			var Class = Object.prototype.toString.call(object);
+			return Class.slice(8, -1);
+		}
+		console.log(clone(xiaoming))
+	}();	
+</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+# 安装
+
+1，本地安装好Ruby环境
+2，sudo gem install cocoapods
+3，使用镜像
+	gem sources --remove https://rubygems.org/
+	//等有反应之后再敲入以下命令
+    $ gem sources -a https://gems.ruby-china.org
+4，验证你的Ruby镜像是并且仅是taobao
+	gem sources -l
+5，sudo gem install cocoapods
+
+	$ sudo gem install cocoapods
+	$ pod setup
+
+	#mac osx 10.11 之后
+	$ sudo gem install -n /usr/local/bin cocoapods --pre //安装最新版本
+	$ sudo gem install -n /usr/local/bin cocoapods -v <version> //安装指定的 version
+
+	查看pod版本
+	$ pod --version
+
+# 使用
+
+1，scene(场景1) 在项目中导入AFNetworking类库
+
+	确定AFNetworking是否支持CocoaPods
+		$ pod search AFNetworking
+
+	进入工程根目录
+	$ vim Podfile
+		输入以下内容
+			platform :ios, '7.0'
+        		pod "AFNetworking", "~> 2.0"
+
+    进入工程当根目录
+    $ pod install
+
+    summary:
+    	先在项目中创建Podfile，Podfile的内容是你想导入的类库。一般类库的原作者会告诉你导入该类库应该如何写Podfile；
+		运行命令：`$ pod install.
+
+2, scene(场景2) 如何正确编译运行一个包含CocoPods类库的项目
+	# $ pod update
+	# $ pod install
+
+
+reference: 
+	http://www.code4app.com/article/cocoapods-install-usage
+

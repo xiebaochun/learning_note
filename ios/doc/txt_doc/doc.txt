@@ -1,0 +1,23 @@
+1,Cocoapods
+点击PodTest.xcworkspace打开工程
+
+2,删除main.storyboard
+
+只需在AppDelegate.m的didFinishLaunchingWithOptions添加如下一行代码即可：
+self.window.rootViewController = [[UIViewController alloc]init];
+
+	self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];  
+	// Override point for customization after application launch.  
+
+	CGRect firstFrame = self.window.bounds;  
+
+	BNRHypnosisView *firstView = [[BNRHypnosisView alloc] initWithFrame:firstFrame];  
+
+	[self.window addSubview:firstView];  
+	   
+	self.window.rootViewController = [[UIViewController alloc]init];//加在这里！  
+
+	self.window.backgroundColor = [UIColor whiteColor];  
+	[self.window makeKeyAndVisible];  
+
+reference: http://blog.csdn.net/cimer/article/details/52590306

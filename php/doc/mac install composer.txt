@@ -1,0 +1,15 @@
+method 1:
+curl -s https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
+
+method 2:
+~ which php
+/usr/bin/php
+curl -sS https://getcomposer.org/installer | /usr/bin/php
+
+(适合本机)
+method 3:
+php -r "readfile('https://getcomposer.org/installer');" | php
+
+move composer to global:
+mv composer.phar /usr/local/bin/composer
