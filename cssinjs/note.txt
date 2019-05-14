@@ -1,0 +1,12 @@
+
+
+1、Keyframes Animation
+const styles = {
+  '@keyframes slideRight': {
+    from: {opacity: 0},
+    to: {opacity: 1}
+  },
+  container: {
+    animationName: '$slideRight'
+  }
+}

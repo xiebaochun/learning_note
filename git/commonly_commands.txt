@@ -1,0 +1,5 @@
+1、设置当前分支为默认分支:
+	git branch –set-upstream-to=origin/master
+
+2、To push the current branch and set the remote as upstream, use:
+	git push --set-upstream origin eds_enhancement
