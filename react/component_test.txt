@@ -1,0 +1,11 @@
+1、TDD
+Test-Driver Development
+
+lib: 
+	Jest
+	react-test-renderer
+
+2、how to choose between snapshot testing and other types of testing in React?
+does your component changes often? If so, avoid snapshot testing.
+
+
