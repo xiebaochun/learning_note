@@ -1,0 +1,2 @@
+1、《深入理解PHP内核》的在线阅读:
+	http://www.php-internals.com/

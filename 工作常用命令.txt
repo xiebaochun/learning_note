@@ -1,0 +1,7 @@
+sudo /usr/local/nginx/sbin/nginx -s reload
+
+## issues
+### ERROR 1840 (HY000) at line 24: @@GLOBAL.GTID_PURGED can only be set when @@GLOBAL.GTID_EXECUTED is empty
+	-> cd /Applications/MySQLWorkbench.app/Contents/MacOS/
+	-> ./mysql -u root -p xssd
+	-> reset master;

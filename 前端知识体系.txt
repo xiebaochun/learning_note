@@ -1,0 +1,44 @@
+前端知识体系
+1、JavaScript语言新发展
+	linux前端开发必备
+	JavaScript语言发展与PHP
+	JavaScript函数式编程与测试
+
+2、NodeJS
+	Express、KOA1&2基础与实践
+	NodeJS核心API与源码
+	HTTP协议、腾讯地图Node架构设计
+
+3、前端工程化与持续构建
+	FIS、Webpack、Yeoman、Gulp等配置
+	工程化预备知识免密登陆、Travis CI等
+	论前端项目持续集成
+
+4、前端性能优化与工程化
+	高级前端性能测试、AMP
+	网红直播性能优化
+	百度地图极致WebApp性能优化
+
+5、CSS古话今说与网站重构
+	CSS工作流构建CSS Next
+	CSS矩阵与高性能渲染
+
+6、设计模式与网络安全实践
+	JavaScript常见设计模式与实践
+	前端加密与安全策略与网络安全
+	BAT面试指南
+
+7、JavaScript图形学与H5游戏
+	游戏中的数学、物理、Canvas
+	走进Tree.js的世界
+	Cocos2d-JS核心物理引擎
+
+8、前端跨界AI、VR、iOS等
+	ReactNative原理剖析&PWA
+	前端嵌入式开发与VR
+	智能时代下的大前端
+
+9、MVVM、MVC框架那些事
+	React深入开发指南
+	Vue深入秘籍与源码分析
+	Angular4进阶开发实战

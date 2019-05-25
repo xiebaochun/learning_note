@@ -1,0 +1,30 @@
+# 内容：
+
+1、业务直接输出 前端css2+html4 后端直接把数据打到页面
+2、前后端分离 js+ dom操作的库 + 发请求
+
+
+3、后端语言 PHP net java ..
+4、es6 typescript es5 linux
+5、nodejs 前后端分离nodejs(server) + api
+6、vue agular react
+7、前端工程化领域 webpack
+8、完成自动化测试 自动化功能测试 自动化UI还原测试 自动化性能测试 自动化压力测试
+9、发布远程开发机去 qa
+10、性能测试 1S 缓存 负载 + 雅虎军规 k8s+docker
+11、数据结构和算法
+12、前端和web黑客完全
+
+
+13、数学+物理 高中
+14、图形学 H5游戏 AR VR 3d 数据可视化
+
+
+15、iot ai iOS android 未来
+
+
+# 面试建议：
+  一面：基础+活细
+  二面：点线面（项目介绍 + 难点 解决方案 +贡献）
+  三四面：态度
+

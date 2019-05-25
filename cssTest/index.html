@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+	<style type="text/css">
+		.animate{
+			left: 0;
+			position: relative;
+			background-color: #990;
+			width: 100px;
+			height: 100px;
+			margin-right: auto;
+			-webkit-animation: leftToRight 3s alternate infinite linear;
+			animation: leftToRight 3s alternate infinite linear;
+		}
+		@-webkit-keyframes leftToRight{
+			0{
+				/*left: 0;*/
+				transform: rotateZ(0deg);
+			}
+			100%{
+				/*left: 500px;*/
+				transform: rotateZ(360deg);
+			}
+		}
+		@keyframes leftToRight{
+			0{
+				/*left: 0;*/
+				transform: rotateZ(0deg);
+			}
+			100%{
+				/*left: 500px;*/
+				transform: rotateZ(360deg);
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="animate"></div>
+	<p>ds</p>
+	<p>ds</p>
+	<p>ds</p>
+	<p>ds</p>
+	<div>
+		<input style="display:block; width: 100%;height: 100px;color: #fff;background: #000;font-size: 30px;" type="text" name="">
+	</div>
+	<script type="text/javascript">
+		var originTime =  new Date().getTime();
+		console.log(originTime);
+		var timer1 = setTimeout(function(){
+			for(var i=0;i<1000000000;i++){
+
+			}
+			//clearTimeout(timer2);
+			console.log('a:' + new Date().getTime());
+		}, 1000);
+		var timer2 = setTimeout(function(){
+			for(var i=0;i<1000000000;i++){
+
+			}
+			console.log('b:' + new Date().getTime());
+		}, 1000);
+		var timer3 = setTimeout(function(){
+			for(var i=0;i<1000000000;i++){
+
+			}
+			console.log('c:' + new Date().getTime());
+		}, 1000);
+	</script>
+</body>
+</html>

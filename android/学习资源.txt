@@ -1,0 +1,7 @@
+##【链接】AndroidDevelopers
+https://developer.android.google.cn/
+
+## 收集Android开发中各种最佳实践的文章
+https://github.com/zeng1990java/android-practice-tips
+https://github.com/tianzhijiexian/Android-Best-Practices
+
