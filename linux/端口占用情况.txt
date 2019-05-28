@@ -1,6 +1,21 @@
 # lsof -i:端口号 用于查看某一端口的占用情况，比如查看8000端口使用情况，
 	lsof -i:8000
 
+# mac查看端口占用：
+	lsof -i tcp:port
+
 # netstat -tunlp 
-	netstat -tunlp |grep 端口号
+	netstat -tunlp | grep 端口号
+	netstat -tulnp | grep <port no>
 	如查看8000端口的情况，netstat -tunlp | grep 8000
+
+# There's a few parameters to netstat that are useful for this :
+	-l or --listening shows only the sockets currently listening for incoming connection.
+	-a or --all shows all sockets currently in use.
+	-t or --tcp shows the tcp sockets.
+	-u or --udp shows the udp sockets.
+	-n or --numeric shows the hosts and ports as numbers, instead of resolving in dns and looking in /etc/services.
+	You use a mix of these to get what you want. To know which port numbers are currently in use, use one of these:
+	netstat -atn           # For tcp
+	netstat -aun           # For udp
+	netstat -atun          # For both

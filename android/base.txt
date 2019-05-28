@@ -1,0 +1,68 @@
+android SDK根目录：
+/Users/xbc/Documents/softpackage/android-sdk-macosx
+
+1、打开android模拟器
+emulator -avd [设备名(如test)]
+
+2、新建android工程
+	1)、打开命令行切换到SDK根目录下
+	2)、打印出我们所有的Android SDK中下载好的可用Android platforms，找想要创建项目的目标platform
+		`tools/android list targets`
+	3)、执行
+		方案一(deprecated):
+			`android create project --target <target-id> --name MyFirstApp --path <path-to-workspace>/MyFirstApp --activity MyActivity --package com.example.myfirstapp`
+			替换<target-id>为上一步记录好的Id，替换<path-to-workspace>为我们想要保存项目的路径。
+
+		方案二(deprecated):
+			android create project -n HelloWorld -t 8 -p HelloWorld -k org.test.helloworld -a HelloWorld 
+			-n：指定创建的项目的名称；
+			-t：指定项目针对的Android平台
+			-p：指定该项目的保存路径
+			-k：指定该项目的包名
+			-a：制定Activity的名称
+		
+		方案三（gradle项目）：
+			Android SDK 19 has android CLI -g option that allows to use gradle template. You might also need to specify android gradle plugin version with CLI -v option, check android gradle plugin compatibility table. Example command to create the project that uses android gradle plugin (v 0.10) to add gradle support.
+
+			`android create project \
+		    --gradle \
+		    --gradle-version 0.10 \
+		    --activity Main \
+		    --package com.example.app \
+		    --target android-19 \
+		    --path AppWithGradleTemplate`
+
+		    or for buildTools 19.1+, use a newer version of the Gradle Android plugin via --gradle-version:
+
+		    `android create project \
+		    --gradle \
+		    --gradle-version 0.11.+ \
+		    --activity Main \
+		    --package com.example.app \
+		    --target android-25 \
+		    --path AppWithGradleTemplate`
+
+		    `android create project --gradle --gradle-version 0.11.+ --activity Main --package com.example.app --target android-25 --path AppWithGradleTemp`
+
+		    refrence: https://stackoverflow.com/questions/20801042/how-to-create-android-project-with-gradle-from-command-line
+
+3、gradle构建编译android项目
+	1、
+	./gradlew -v 版本号
+	./gradlew clean 清除app目录下的build文件夹
+	./gradlew build 检查依赖并编译打包
+	./gradlew tasks 列出所有task
+	2、
+	./gradlew assembleDebug 编译并打Debug包
+	./gradlew assembleRelease 编译并打Release的包
+
+reference: http://blog.csdn.net/heqiangflytosky/article/details/50853268	
+
+4、安装apk
+	## adb devices
+	## adb install -r 应用程序.apk
+	adb install bin/xx-debug.apk
+
+
+5、android sdk管理
+SDK root path/tools/android

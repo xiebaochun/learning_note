@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+	<style type="text/css">
+		div{
+			background-color: #895600;
+		}
+		div	> span{
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+	<div><span></span></div>
+	<script>
+		var oldTime = new Date().getTime();
+		for(var j=0;j<100000;j++){
+			var arr = new Array(100);
+			for(var i = 0;i<100;i++) {
+				arr[i] = 1;
+			}
+		}
+		console.log(new Date().getTime() - oldTime);
+
+		var oldTime = new Date().getTime();
+		for(var k=0;k<100000;k++){
+			var arr = new Array();
+			for(var i = 0;i<100;i++) {
+				arr[i] = 1;
+			}
+		}
+		console.log(new Date().getTime() - oldTime);
+
+		var oldTime = new Date().getTime();
+		for(var k=0;k<100000;k++){
+			var arr = [];
+			for(var i = 0;i > -5;i--){
+				arr[i] = i;
+			}
+		}
+		arr[100] = 4;
+		console.log(arr.length)
+		console.log(new Date().getTime() - oldTime);
+
+		var oldTime = new Date().getTime();
+		for(var k=0;k<100000;k++){
+			var arr = [];
+			for(var i = 0;i < 5;i++){
+				arr[i] = 1;
+			}
+		}
+		console.log(new Date().getTime() - oldTime);
+	</script>
+</body>
+</html>

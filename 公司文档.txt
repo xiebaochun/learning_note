@@ -1,0 +1,15 @@
+App测试包下载地址：
+	https://www.sknx.tk
+商城
+	测试环境：
+	http://shoptest0.xs2buy.cn/index.php?s=/admin/admin/logininfo.html
+	http://shoptest0.xs2buy.cn/
+	后台账号
+	test1
+	test2018
+
+	前台账号
+	13250814883
+	123456
+
+	47.97.26.124 shoptest0.xs2buy.cn
