@@ -1,5 +1,5 @@
 # 脚手架
-	create-react-app
+	create-react-app （react-scripts是核心）
 	nwb
 
 ## Change port
@@ -17,11 +17,19 @@
 	then run the command
 	npm start`
 
+## 修改create-react-app的默认webpack配置（但是没必要）
+	方法一：
+		npm run eject(此方法不可逆)
+	方法二：
+		react-app-rewired(使用此插件来覆盖)
+
 
 # 常用组件库
 	prop-types
 	ramda(cramda)
 	classnames
 	lodash
+	
+
 
 

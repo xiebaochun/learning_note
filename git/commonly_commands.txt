@@ -3,3 +3,13 @@
 
 2、To push the current branch and set the remote as upstream, use:
 	git push --set-upstream origin eds_enhancement
+
+3、同步远程分支
+	
+
+4、Remove a file from a Git repository without deleting it from the local filesystem
+	For single file:
+	git rm --cached mylogfile.log
+
+	For single directory:
+	git rm --cached -r mydirectory

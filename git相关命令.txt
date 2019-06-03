@@ -1,6 +1,0 @@
-1、Remove a file from a Git repository without deleting it from the local filesystem
-For single file:
-git rm --cached mylogfile.log
-
-For single directory:
-git rm --cached -r mydirectory
