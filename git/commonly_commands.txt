@@ -13,3 +13,7 @@
 
 	For single directory:
 	git rm --cached -r mydirectory
+
+5 undo git add . from staged
+	git reset 
+	git reset <file path>

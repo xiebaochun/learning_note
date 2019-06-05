@@ -29,6 +29,11 @@
 	ramda(cramda)
 	classnames
 	lodash
+
+
+# 常见问题
+	react-tap-event-plugin不能在React 16.4.0之后的版本使用
+	回滚React版本
 	
 
 
