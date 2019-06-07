@@ -5,3 +5,13 @@
 	[OSX, *nix] nvm: https://github.com/creationix/nvm
 	[Windows] nodist: https://github.com/marcelklehr/nodist
 
+3 npm 与 npx的区别
+
+	npx is a npm package runner (x probably stands for eXecute). The typical use is to download and run a package temporarily or for trials.
+
+	create-react-app is an npm package that is expected to be run only once in a project's lifecycle. Hence, it is preferred to use npx to install and run it in a single step.
+
+	As mentioned in the man page https://www.npmjs.com/package/npx, npx can run commands in the PATH or from node_modules/.bin by default.
+
+
+
