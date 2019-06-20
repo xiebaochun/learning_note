@@ -13,3 +13,6 @@ App测试包下载地址：
 	123456
 
 	47.97.26.124 shoptest0.xs2buy.cn
+
+阿里云mysql数据库：
+pool = PooledDB(MySQLdb,5,host='47.99.38.45',user='hepf',passwd='he123456',db='hepf',port=3306)

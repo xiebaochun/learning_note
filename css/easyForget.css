@@ -1,3 +1,11 @@
+/*set html font-size to 10px when device width equal to 750px*/
 html{
 	font-size: 26.66666vw;
 }
+
+.foo{
+	word-wrap: normal | break-word;
+	word-break: normal | break-all | keep-all;
+	white-space: normal | nowrap | pre-line | pre-wrap | inherit;
+}
+

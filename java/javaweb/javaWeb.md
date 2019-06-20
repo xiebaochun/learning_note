@@ -30,5 +30,7 @@ Further, it describes about the global-context and local-context param (i.e.; <c
 	copy WAR file to CATALINA_HOME/webapps, e.g.,c:Tomcat8/webapps
 	access it by: http://localhost:8080/demoWebsite/demo.jsp
 
+	Note: When Tomcat is started, it will automatically expand the web application archive file into its unpacked form
+
 
 
