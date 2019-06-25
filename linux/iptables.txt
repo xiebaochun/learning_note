@@ -3,8 +3,13 @@ iptables -L -n
 下面添加对特定端口开放的方法：
 使用iptables开放如下端口
 /sbin/iptables -I INPUT -p tcp --dport 8000 -j ACCEPT
+or
+iptables -I INPUT -p tcp --dport 8000 -j ACCEPT
 保存
 /etc/rc.d/init.d/iptables save
+or
+# service iptables save  
+# iptables-save >  /etc/sysconfig/iptables
 重启服务
 service iptables restart
 查看需要打开的端口是否生效？
@@ -16,3 +21,17 @@ service iptables restart
 保存在前面部分
 再重启:
 service iptables restart
+
+
+Deleting rules 
+	sudo iptables -F
+
+Dropping all other traffic
+	sudo iptables -A INPUT -j DROP
+
+删除指定规则：
+sudo iptables -L --line-numbers
+sudo iptables -D INPUT 3
+
+ref: http://sandlininc.com/?p=339
+	 https://www.hostinger.com/tutorials/iptables-tutorial

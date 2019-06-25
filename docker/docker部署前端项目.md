@@ -14,7 +14,7 @@
 	Dockerfile    ---用于生成docker镜像的文件
 
 	注:此时可以交给运维部署了
-	
+
 3、打包docker镜像
 	`docker build -t test_web88`
 
@@ -22,7 +22,7 @@
 	`docker images`
 
 5、运行镜像
-	`docker run -d -p 8686:8686 aa43674b9f8`
+	`docker run -d -p 8686:80 aa43674b9f8`
 	-d 代表镜像在后台运行
 	-p 代表映射端口号 容器开的端口:服务器的端口
 	最后的的字符串是镜像的ID
@@ -32,4 +32,8 @@
 
 7、用浏览器访问8686端口
 	url:[docker的ip地址]:8686
+
+
+8、停止docker服务
+	docker kill [id]
 

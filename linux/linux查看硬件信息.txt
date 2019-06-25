@@ -1,26 +1,22 @@
-查看Linux硬件配置信息
-在网上找了N久,发现了一篇不错的文档,转载一下:
-
 1.查看机器所有硬件信息:
 
-dmidecode |more
+dmidecode | more
 
-dmesg |more
+dmesg | more
 
 这2个命令出来的信息都非常多,所以建议后面使用"|more"便于查看
 
 2.查看CPU信息
-
    方法一:
-   Linux下CPU相关的参数保存在 /proc/cpuinfo 文件里
-   cat /proc/cpuinfo |more
+      Linux下CPU相关的参数保存在 /proc/cpuinfo 文件里
+      cat /proc/cpuinfo |more
    方法二:
-   采用命令 dmesg | grep CPU 可以查看到相关CPU的启动信息
+      采用命令 dmesg | grep CPU 可以查看到相关CPU的启动信息
+
    查看CPU的位数:
+      getconf LONG_BIT
 
-   getconf LONG_BIT
-
-3.查看Mem信息
+3.查看Memery信息
 
  cat /proc/meminfo |more （注意输出信息的最后一行:MachineMem:   41932272 kB）
 
