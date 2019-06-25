@@ -1,6 +1,6 @@
 1、编写Dockerfile文件，docker将根据这个文件自动部署你的项目
-	`# 在容器安装
-	nginxFROM nginx
+	`# 在容器安装nginx
+	FROM nginx
 	# 移除nginx的default.conf 
 	RUN rm /etc/nginx/conf.d/default.conf 
 	# 把配置好的nginx配置文件添加到 /etc/nginx/conf.d/ 目录下  （就是把default.conf文件替换）
@@ -16,7 +16,7 @@
 	注:此时可以交给运维部署了
 
 3、打包docker镜像
-	`docker build -t test_web88`
+	`docker build -t test_web88 .`
 
 4、查看生成的景象
 	`docker images`
