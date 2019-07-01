@@ -28,3 +28,7 @@ password: 2503aa9d4
 vpn type: cisco ipsec
 share secret: vpn.psk
 
+华金证券：
+资金账户：26012329
+密码：phone(tips)
+
