@@ -30,5 +30,5 @@ share secret: vpn.psk
 
 华金证券：
 资金账户：26012329
-密码：phone(tips)
+密码：phone(tips:last six numbers)
 
