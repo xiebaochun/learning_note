@@ -21,6 +21,9 @@ github:
 	meipai: [******]
 	zstu:	[******]
 
+gitee:
+	juerry: [******]
+
 VPN:
 server: 172.105.214.208
 account: huang.home

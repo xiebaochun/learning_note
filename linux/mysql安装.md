@@ -21,18 +21,23 @@ chown mysql:mysql -R /usr/local/mysql-5.6.28
 
 5、安装cmake，先看看系统中是否存在
 
+# yum install make
+
+ or 
+
 mysql5.5以后是通过cmake来编译的,可在http://www.cmake.org网站进行下载cmake-3.6.1.tar.gz
 
+sudo wget https://github.com/Kitware/CMake/releases/download/v3.6.1/cmake-3.6.1.tar.gz
 tar -zxf cmake-3.6.1.tar.gz
 cd cmake-3.6.1
 ./configure
 gmake && gmake install
 
 
-
 二、安装MySQL 5.6.28
 
 1、解压并进入源码目录：
+sudo wget http://mysql.mirror.ac.za/Downloads/MySQL-5.6/mysql-5.6.38.tar.gz
 tar -zxf mysql-5.6.28.tar.gz
 cd mysql-5.6.28
 

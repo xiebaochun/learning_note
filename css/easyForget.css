@@ -9,3 +9,8 @@ html{
 	white-space: normal | nowrap | pre-line | pre-wrap | inherit;
 }
 
+.ellipsis{
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
