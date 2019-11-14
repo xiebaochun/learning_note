@@ -35,3 +35,9 @@ share secret: vpn.psk
 资金账户：26012329
 密码：phone(tips:last six numbers)
 
+广东省统一身份认证平台
+id: xiebaochun1990
+pwd: D[*****]
+
+个税
+pwd: D[*****]
