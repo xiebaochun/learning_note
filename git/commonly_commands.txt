@@ -5,7 +5,7 @@
 	git push --set-upstream origin eds_enhancement
 
 3、同步远程分支
-	
+	git remote update --prune [remote]
 
 4、Remove a file from a Git repository without deleting it from the local filesystem
 	For single file:
@@ -24,3 +24,6 @@
 
 7 撤销提交
 	git revert [commit id]
+
+8 查看文件变动
+	git show --name-only {commit}

@@ -1,0 +1,6 @@
+vim ~/.bash_profile
+
+PATH=$PATH:HOME/bin
+
+source ~/.bash_profile
+

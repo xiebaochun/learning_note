@@ -1,0 +1,19 @@
+
+工具类：
+project management:
+	Jira
+	
+code version control:
+	git
+	svn
+
+code review: 
+	gerrit 
+	https://www.gerritcodereview.com/
+
+
+
+
+
+
+

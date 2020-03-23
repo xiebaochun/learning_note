@@ -18,3 +18,7 @@
 ### 获取分配的机器地址 及状态
 	kubectl get pods -o wide -n sparklebao|grep portal
 
+
+### Run deployment 
+	ubectl apply -f nodejs-deployment.yaml
+
