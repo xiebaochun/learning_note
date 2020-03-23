@@ -1,0 +1,57 @@
+1 技术栈
+	前端：  react  -es6
+				UI: 
+					material-ui
+
+
+
+	后端：   spring -java
+			spring-boot
+			maven
+
+	zookeeper	（网络管理）
+	redis	（缓存数据库）
+	kafka  	（消息队列）
+
+	k8s 	(容器编排系统)
+
+	docker （容器）
+			docker hub
+
+
+项目管理：
+	敏捷开发 
+		scrum
+
+	办公软件：
+		confluence （文档管理）
+		jira (任务管理)
+		microsoft teams （技术交流 会议）
+		skype （工作交流 会议）
+		outlook （公司及工作日常相关邮件）
+
+	开发流程：
+		jinkens （工程构建流程管理工具）
+		katalon		（测试工具）
+		jmeter		性能测试工具
+
+代码管理：
+	git   （版本控制系统）
+	gerrit (review代码)
+
+职位设置：
+	eco      (首席执行官)
+	cfo      (首席技术官)
+	final	（财务）
+	master  （团队主管）
+	PO		（需求管理）
+	PM    （项目管理）
+	测试 （普通开发人员）
+	scrum master
+	前端开发 （普通开发人员）
+	后端开发	（普通开发人员）
+	master of software design
+	(senior) software design engineer
+
+
+
