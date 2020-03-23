@@ -17,6 +17,7 @@ AppSecret:
 	AppSecret(小程序密钥)：b2eec0045c4a8f26d2c983db16c4bf76
 
 github:
+	xiebaochun: [_******]
 	juerry: [******]
 	meipai: [******]
 	zstu:	[******]
@@ -41,3 +42,7 @@ pwd: D[*****]
 
 个税
 pwd: D[*****]
+
+QQ: 463449055/D[*****]
+
+
