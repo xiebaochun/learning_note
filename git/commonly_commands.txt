@@ -27,3 +27,9 @@
 
 8 查看文件变动
 	git show --name-only {commit}
+
+9 squash commits to one(将多个commits压成一个)
+	git rebase -i [commit-id (not contained it)] 
+
+	note: 
+		select by `s` short command
