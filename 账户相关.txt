@@ -49,6 +49,10 @@ QQ: 463449055/D[*****]
 =======================\
 
 22环境mysql:
-root/MyNewPass4!
+admin/MyNewPass4!
+
+google账户
+xieperson@gmail.com
+[******]
 
 
