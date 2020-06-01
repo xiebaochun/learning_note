@@ -5,3 +5,7 @@
 
 ## commonly commands
 docker image ls
+
+docker exec -it <CONTAINER> bash
+
+docker logs -f <CONTAINER>
