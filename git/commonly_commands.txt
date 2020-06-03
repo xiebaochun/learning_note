@@ -42,3 +42,7 @@
 
 	git reset HEAD^
 	git add again
+
+
+11 撤回部分file的commit
+	git restore --staged [filepath]

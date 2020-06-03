@@ -5,3 +5,7 @@
 
 	You need to enable the “Make project automatically” option. You can find it in Settings – Build, Execution, Deployment – Compiler
 	To open the registry, Press Ctrl-Alt-Shift-/ and select "Registry" from the menu that appears, enable the “compiler.automake.allow.when.app.running” check-box.
+
+
+2 解决浏览器访问跨域
+	在类或者方法加上@CrossOrigin注解
