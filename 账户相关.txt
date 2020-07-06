@@ -56,6 +56,10 @@ xieperson@gmail.com
 [******]
 
 wx:
+
+dongfangzhengquan:
+id: 100256461
+net pwd: bc + (tips: id card last six number)
 	
 
 
