@@ -21,6 +21,8 @@ Customer
 Target version
 
 ### User Stories
+	1.As a ###, if ***, I can
+	2.As a *, if * , i can
 
 ## Solution Proposal
 ### Overview
