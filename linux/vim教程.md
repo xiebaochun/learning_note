@@ -10,7 +10,7 @@ jump to a specific line: `:123+G`
 
 ## Searching
 
-### Search a page after thr cursor position
+### Search a page after the cursor position
 `:/cats`
 
 ### Search a page before the cursor position
@@ -43,6 +43,14 @@ enable syntax
 `:set nonu`
 
 vim ~/.vimrc
+
+
+nerdTree:
+	open dir: o
+	enter dir: e
+	back to parent dir: u
+	open file: i
+	exist file: ctrl+c :q!
 
 
 
