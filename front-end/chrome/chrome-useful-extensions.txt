@@ -1,0 +1,5 @@
+1.Vimium
+open links via shortcut on web page
+shortcuts:
+	f : pop up keyboard shortcut over every link
+	shit + f: will open in a new tab
