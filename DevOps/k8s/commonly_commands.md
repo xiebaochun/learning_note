@@ -1,6 +1,6 @@
-### kubectl get svg
+### kubectl get svc
 
-### kubectl get svg | grep eric-ei-postgresal
+### kubectl get svc | grep eric-ei-postgresal
 
 ### kubectl get pods --all-namespaces
 
@@ -20,5 +20,5 @@
 
 
 ### Run deployment 
-	ubectl apply -f nodejs-deployment.yaml
+	kubectl apply -f nodejs-deployment.yaml
 

@@ -45,4 +45,9 @@
 
 
 11 撤回部分file的commit
-	git restore --staged [filepath]
+	1 git reset --soft HEAD^1
+	2 git reset <file path>
+	git rm --cached <file-name>(如果要刪除此文件)
+
+12 恢复reset
+	git reflog

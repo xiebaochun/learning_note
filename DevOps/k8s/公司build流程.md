@@ -5,8 +5,8 @@
 改动以后，k8s会自动重启pod
 Portal gui的image如法炮制
 如果不改动deployment 要重启pod 就
-kubectl scale $deployment -n sparklebao –replicas=0
-kubectl scale $deployment -n sparklebao –replicas=1
+kubectl scale deployment [deploymentname] -n sparklebao -–replicas=0
+kubectl scale deployment [deploymentname] -n sparklebao -–replicas=1
 
 
 kubectl get pods -n sparklebao|grep portal
