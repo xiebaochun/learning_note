@@ -1,0 +1,3 @@
+ctl + f 查找替换
+ctl + h 全局查找
+double shift 查找文件

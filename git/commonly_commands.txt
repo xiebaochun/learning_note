@@ -45,9 +45,17 @@
 
 
 11 撤回部分file的commit
-	1 git reset --soft HEAD^1
-	2 git reset <file path>
+	step 1: git reset --soft HEAD^1
+	step 2: git reset <file path>
 	git rm --cached <file-name>(如果要刪除此文件)
 
 12 恢复reset
 	git reflog
+
+
+13 list all conflict files
+	git diff --name-only --diff-filter=U
+
+
+14 add message to stash command
+	git stash save <messages>
