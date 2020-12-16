@@ -64,6 +64,11 @@ xieperson@gmail.com
 
 wx:
 
+twitter:
+id: xiebaochun
+emial: 463449055@qq.com
+pwd: [******]
+
 dongfangzhengquan:
 id: 100256461
 net pwd: bc + (tips: id card last six number)

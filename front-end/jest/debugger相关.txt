@@ -1,0 +1,14 @@
+step1
+	write `debugger` in test file
+
+step2
+	run 
+	`node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand __tests__/app/pages/devicetype/CreateDeviceTypePage.test.js`
+
+step3
+	open url `chrome://inspect`, click Remote Target -> inspect
+
+
+step4 
+	chrome devTools will set brakpoint first in test CLI script, then click play button to continue execution.
+	When run in to the `debugger` statement, the execution will pause, then you can examine the current scope and call stack.
