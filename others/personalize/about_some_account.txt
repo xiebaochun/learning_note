@@ -32,6 +32,10 @@ password: 2503aa9d4
 vpn type: cisco ipsec
 share secret: vpn.psk
 
+server: v2free
+id:463[****]@qq.com
+pwd:12345678
+
 昵图网：
 chairperson
 pwd: [*********]
