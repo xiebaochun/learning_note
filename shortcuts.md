@@ -5,8 +5,8 @@
 	ctrl + n ------> new window
 	ctrl + t ------> new tab
 	ctrl + w ------> close window or tab
-	ctrl + e ------> focus in address input
-
+	ctrl + L ------> focus in address input (or alt + D)
+	refs: https://www.computerhope.com/shortcut/chrome.htm
 	### dev tool
 		F12 | ctrl + shift + i ------> open dev tool
 		ctrl + [|]   --------------> ( next | prev) pannel 
@@ -37,6 +37,11 @@
 	Ctrl + KL -------> Transform to Lowercase
 
 	refs: https://shortcuts.design/toolspage-sublimetext.html
+
+## bash(gitbash or linux command line)
+
+	refs: https://gist.github.com/tuxfight3r/60051ac67c5f0445efee
+
 ## windows:
 
 	win + arrow up -----> maximum window
@@ -44,7 +49,8 @@
 	win + f4       --------> close window's application(proccess)
 
 
-
+	### use keyboard to control mouse:
+		refs: https://mcmw.abilitynet.org.uk/windows-10-using-your-keyboard-control-mouse
 
 
 
