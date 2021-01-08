@@ -3,3 +3,11 @@ open links via shortcut on web page
 shortcuts:
 	f : pop up keyboard shortcut over every link
 	shit + f: will open in a new tab
+
+
+2 scroll half a page
+	ctrl + space ---> scroll down a half page
+	ctrl + shift + space ----> scroll up a half page
+
+3 Smooth Key Scroll
+	[ctrl | alt] + [arraw right | left | up | down]

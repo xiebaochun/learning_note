@@ -27,7 +27,8 @@
 ## vs code
 	ctrl + b --------> toggle sidebar visibility
 	ctrl + shift + e -------> focus to file explore of sidebar
-
+	ctrl + shift + [   ------> collapse region
+	ctrl + shift + ]   ------> uncollapse region
 
 ## sublime 
 	ctrl + 0 ------> focus to sidebar
